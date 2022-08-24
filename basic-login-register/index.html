@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--Ana stil dosyası-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--İcon linki-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login">
+        <div class="login_head">
+            <div class="login_img">
+                <img src="assets/img/img3.png" alt="">
+            </div>
+            <div class="login_form">
+                <form action="" class="login_register" id="login_in">
+                    <h1 class="login_title">Giriş Yap</h1>
+                        <div class="login_box">
+                            <i class='bx bxs-user-rectangle login_icon'></i>
+                            <input type="text" placeholder="Kullanıcı adı" class="login_input">     
+                        </div>
+                        <div class="login_box">
+                            <i class='bx bxs-lock login_icon'></i>
+                            <input type="password" placeholder="Şifreniz" class="login_input">     
+                        </div>
+                            <a href="#" class="login_forgot">Şifremi Unuttum?</a>
+                            <a href="#" class="login_button">Giriş Yap</a>
+                        <div>
+                                <span class="login_account">Henüz bir hesabınız yok mu ?</span>
+                                <span class="login_signin" id="signup">Kayıt Ol!</span>
+                        </div>
+                </form>
+                <form action="" class="login_create none" id="login_up">
+                    <h1 class="login_title">Kayıt ol</h1>
+                        <div class="login_box">
+                            <i class='bx bxs-user-rectangle login_icon'></i>
+                            <input type="text" placeholder="Kullanıcı adı" class="login_input">     
+                        </div>
+                        <div class="login_box">
+                            <i class='bx bx-at login_icon'></i>
+                            <input type="text" placeholder="Email" class="login_input">     
+                        </div>
+                        <div class="login_box">
+                            <i class='bx bxs-lock login_icon'></i>
+                            <input type="password" placeholder="Şifreniz" class="login_input">     
+                        </div>
+                            <a href="#" class="login_forgot">Şifremi Unuttum?</a>
+                            <a href="#" class="login_button">Kayıt Ol</a>
+                        <div>
+                                <span class="login_account">Zaten bir hesabım var.</span>
+                                <span class="login_signup block" id="signin">Giriş Yap!</span>
+                        </div>
+                        <div class="login_social">
+                            <a href="#" class="login_social_icon">
+                                <i class='bx bxl-facebook' ></i>
+                                <i class='bx bxl-instagram' ></i>
+                                <i class='bx bxl-twitter' ></i>
+                                <i class='bx bxl-github' ></i>
+                                <i class='bx bxl-google' ></i>
+                            </a>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Main js dosyası-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
