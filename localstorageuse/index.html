@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-2">
+                <form id="userForm">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Kullanıcı adı</label>
+                        <input type="text" class="form-control" name="username" id="username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Not Bilgisi</label>
+                        <input type="text" class="form-control" name="not" id="not">
+                    </div>
+                    <button class="btn btn-primary mt-2" type="submit">Gönder</button>
+                    <button class="btn btn-danger mt-2" type="reset">Sıfırla</button>
+                </form>
+                <button class="btn btn-danger mt-2"id="delete">localstorage'de ki veriyi sil</button>
+            </div>
+            <div class="col-md-12 mt-2">
+                <ul class="list-group" id="userList">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>
